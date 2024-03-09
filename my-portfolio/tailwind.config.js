@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {},
     fontFamily:{
-      signature: ["Kode Mono"],
+      signature: ["Satisfy"],
     },
   },
   plugins: [],
