@@ -62,7 +62,7 @@ return (
     <div className='flex flex-col top-[35%] left-0 fixed'>
         <ul>
             {links.map((link)=> (
-                <li key={link.id} className={'hidden lg:flex justify-between items-center w-40 h-14 px-4 bg-indigo-500 ml-[-100px] duration-300 hover:ml-[-10px]' + " " + link.style }>
+                <li key={link.id} className={'hidden lg:flex justify-between items-center w-40 h-14 px-4 hover:rounded-md bg-indigo-500 ml-[-100px] duration-300 hover:ml-[-10px]' + " " + link.style }>
                     <a href={link.href} className='flex justify-between
                     items-center w-full text-white'
                     download={link.download}
